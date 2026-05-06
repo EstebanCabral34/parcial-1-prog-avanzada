@@ -25,6 +25,9 @@ El sistema sigue una estructura por capas:
 * **interfaces**: Interfaces (`Calculable`, `Mostrable`)
 * **ui**: Interfaz de usuario por consola (`Main`)
 
+Diagramas UML:
+https://lucid.app/lucidchart/1745976b-a80a-49aa-84b9-36520023b469/edit?invitationId=inv_9e1d39e8-c7e4-4e8a-b073-dc3b404273de&page=0_0#
+
 ---
 
 ## 🚀 Funcionalidades
