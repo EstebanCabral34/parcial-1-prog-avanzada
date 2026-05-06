@@ -1,7 +1,10 @@
 package exceptions;
 
-public class PatenteDuplicadaException extends RuntimeException {
-    public PatenteDuplicadaException(String message) {
-        super(message);
+// Excepcion que se lanza cuando se intenta ingresar una patente ya existente
+public class PatenteDuplicadaException extends Exception {
+
+    // Constructor que recibe el mensaje de error
+    public PatenteDuplicadaException(String mensaje) {
+        super(mensaje);
     }
 }

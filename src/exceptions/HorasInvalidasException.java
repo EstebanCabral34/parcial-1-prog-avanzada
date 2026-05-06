@@ -1,7 +1,10 @@
 package exceptions;
 
-public class HorasInvalidasException extends RuntimeException {
-    public HorasInvalidasException(String message) {
-        super(message);
+// Excepcion que se lanza cuando las horas ingresadas no son validas
+public class HorasInvalidasException extends Exception {
+
+    // Constructor que recibe el mensaje de error
+    public HorasInvalidasException(String mensaje) {
+        super(mensaje);
     }
 }

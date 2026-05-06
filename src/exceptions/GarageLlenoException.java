@@ -1,7 +1,10 @@
 package exceptions;
 
-public class GarageLlenoException extends RuntimeException {
-    public GarageLlenoException(String message) {
-        super(message);
+// Excepcion que se lanza cuando no hay espacio disponible en el garage
+public class GarageLlenoException extends Exception {
+
+    // Constructor que recibe el mensaje de error
+    public GarageLlenoException(String mensaje) {
+        super(mensaje);
     }
 }
